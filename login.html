@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login&Cadastro</title>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Login</title>
 </head>
 <body>
-    ÁREA DE LOGIN E CADASTRO.
+  <div class="header">
+    <h1 class="texth1">Login</h1>
+    
+    <form method="POST">
+        <label for="usuario"></label>
+        <input type="text" name="usuario" id="usuario"  required minlength="10" autocomplete="off" placeholder="Insira o seu e-mail">
+        <br>
+        <br>
+        <label for="senha"></label>
+        <input type="password" name="senha" id="senha" required minlength="5" placeholder="Insira a sua senha">
+        <p class="esqueceu">
+            <a href="#">Esqueceu sua senha?</a>
+        </p>
+
+       <div class="butao"><button>Iniciar sessão</button></div>
+    </form>
+    <div class="criar">
+      Ainda não possui uma <a href="cadastro.html">Conta?</a>
+     </div>
+  </div>
 
 </body>
 </html>

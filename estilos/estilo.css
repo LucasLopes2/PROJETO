@@ -1,0 +1,94 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #313131;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(../imgs/pexels-garon-piceli-1785687.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+}
+.header{
+    
+    width: 400px;
+    padding: 20px 30px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.header .texth1{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}  
+.header label{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.header input{
+    background:transparent;
+    width: 350px;
+    padding: 3px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 16px;
+}
+.esqueceu a{
+    left: 25px;
+    position: relative;
+    margin: 10px;
+    justify-content: right;
+   display: flex;
+    color: rgb(0, 38, 255)
+}
+.esqueceu a:hover{
+ color: indigo;
+ text-decoration: underline;
+}
+.criar {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.criar a{
+    color: rgb(0, 38, 255)
+}
+.criar a:hover{
+    color: indigo;
+    text-decoration: underline;
+}
+div.butao{
+   display: flex;
+   margin: 15px 0;
+   flex-direction: column;
+}
+div.butao button{
+    color: #ccc;
+    font-size: 17px;
+    border: none;
+    padding: 7px 10px;
+    font-weight: 600;
+    background: rgb(80, 79, 79);
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+div.butao button:hover{
+    background: #313131;
+}   
+
+    
