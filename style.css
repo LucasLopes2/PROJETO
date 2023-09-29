@@ -6,16 +6,17 @@ body, html {
     overflow-x: hidden !important;
     background-image: linear-gradient(to bottom, #2C069E, #754FE8);
     }
-main {
-
+    
+main{
     margin: auto;
-    width: 500px;
+    text-align: center;
+    width: 100%;
     font: bolder;
     font-size: 1.5em;
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.5em;
     background-color: white;
-    text-align: center;
+    
     border-radius: 10px;
   
 }
@@ -31,6 +32,9 @@ header{
    text-align: center;
    background-size: cover;
    background-attachment: fixed;
+}
+p{
+    font-size: 0.8em;
 }
 .alinhar {
     font-family: 'Dancing Script', cursive;
@@ -102,7 +106,7 @@ nav a{
     font-size: 1em;
     text-decoration: none;
     color: #16034f91;
-    padding: 30px;
+    padding: 10px;
 }
 nav a:hover{
     text-decoration: underline;
@@ -123,5 +127,9 @@ footer a:hover{
     text-decoration: underline;
     color: #2C069E;
 }
-
+.conteudo2{
+    padding: 20px;
+    columns: auto;
+    
+}
  
