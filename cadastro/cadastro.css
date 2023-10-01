@@ -1,0 +1,94 @@
+@charset "utf-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    color: black;
+    font-size: 15px;
+    padding-left: 5px;
+}
+body{
+    text-align: center;
+    background-image: url(../imgs/fund.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 60px;
+}
+.conteudo{
+    margin: auto;
+    background-color: white;
+    height:  85vh;
+    width: 300px;    border-radius: 20%;
+    padding: 10px;
+}
+.title{
+    padding: 10px;
+    font-size: 20px;
+
+}
+.texto{
+    padding: 10px;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 16px;
+    color: dimgrey;
+}
+.cadastramento{
+   font-size: 15px;
+   font-weight: bolder;
+}
+#nome{
+   background: white;
+    width: 70%;
+}
+.senha{
+    font-size: 15px;
+    font-weight: bolder;    
+    margin: auto;
+}
+#senha{
+    background: white;
+    width: 70%;
+
+}
+.data{
+    font-size: 15px;
+    font-weight: bolder; 
+}
+.email{
+    font-size: 15px;
+    font-weight: bolder; 
+}
+#imail{
+    background:white;
+    width: 70%;
+}
+.horas{
+    font-size: 15px;
+    font-weight: bolder; 
+}
+#horas{
+    background: white;
+    width: 70%;
+}
+
+.clear{
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+}
+.btn input{
+    padding:6px;
+    width: 50%;
+    background-color: black;
+    color: white; 
+}
+.btn input:hover{
+    background-color: rgba(0, 0, 0, 0.733);
+}
+

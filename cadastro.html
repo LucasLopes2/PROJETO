@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="cadastro/cadastro.css">
+    <title>Cadastro</title>
 </head>
 <body>
-    
+    <div class="conteudo">
+        <form action="index.html" autocomplete="on">
+            <div class="title">
+                <h1>Registro</h1>
+            </div>
+            <div class="texto">
+                <p>Bem-Vindo a nossa Área de Registros para novos usuários</p>
+            </div>
+            <div class="cadastramento">
+                <label for="nome">Digite seu Nome Completo</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <br>
+            <div class="senha">
+                <label for="senha">Digite sua Senha</label>
+                <input type="password" name="senha" id="senha" maxlength="15" placeholder="Máximo 10 Letras">
+            </div>
+            <br>
+            <div class="data">
+                <label for="data">Digite sua data de Nascimento</label>
+                <input type="month">
+            </div>
+            <br>
+            <div class="email">
+                <label for="imail">Digite um Email</label>
+                <input type="email" name="iamil" id="imail" placeholder="">
+            </div>
+            <br>
+            <div class="horas">
+                <label for="horas">Quantas horas você fica ativo por dia nas redes sociais?</label>
+                <input type="number" name="horas" id="horas" placeholder=" 1 a 23 hrs?" max="23" min="1">
+            </div>
+            <br>
+            <div class="clear">
+                <input type="reset" value="Limpar Tudo">
+            </div>
+            <div class="btn">
+                <input type="button" value="Registrar">
+            </div>
+           
+    </div>
 </body>
 </html>
