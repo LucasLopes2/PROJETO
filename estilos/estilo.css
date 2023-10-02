@@ -90,5 +90,7 @@ div.butao button{
 div.butao button:hover{
     background: #313131;
 }   
-
+input{
+    color: white;
+}
     
